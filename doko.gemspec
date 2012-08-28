@@ -2,8 +2,8 @@
 require File.expand_path('../lib/doko/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Fernando Hernandez"]
-  gem.email         = ["fher69@gmail.com"]
+  gem.authors       = ["Edgar Rodriguez", "Fernando Hernandez"]
+  gem.email         = ["edgar.rd@gmail.com", "fernando@schwarz.mx"]
   gem.description   = %q{SPARQL Data explorer for your console.}
   gem.summary       = %q{Explore your RDF database from your console.}
   gem.homepage      = ""
