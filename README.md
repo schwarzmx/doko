@@ -1,4 +1,4 @@
 doko
 ====
 
-SPARQL Data explorer for your console.
+Semantic Web Data Explorer for your console.
