@@ -15,6 +15,13 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.require_paths = ["lib"]
 
+  gem.add_runtime_dependency 'sparql-client'
+  gem.add_runtime_dependency 'json_pure',
+    ['>=1.6.5']
+  gem.add_runtime_dependency 'rdf',
+    ['>=0.3.5']
+  gem.add_runtime_dependency 'net-http-persistent',
+    ['>=1.4.1']
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec'
 end
